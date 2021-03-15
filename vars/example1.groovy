@@ -1,4 +1,4 @@
-def call(String name = "Alice") {
+def call(String name = "Dada") {
     script {
         sh """
             echo Hi ${name}
