@@ -8,4 +8,3 @@ class Point {
    echo "Drawing $shape with Point"
   }
 }
-return this
