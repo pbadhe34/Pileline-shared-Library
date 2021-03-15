@@ -1,10 +1,9 @@
 package org.data
  
-class Point {
-  float x,y,z
+class Point {   
 
   def draw(shape)
   { 
-   echo "Drawing $shape with Point"
+   println "Drawing $shape with Point"
   }
 }
