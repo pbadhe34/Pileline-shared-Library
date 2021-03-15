@@ -4,8 +4,8 @@ class Point {
   float x,y,z
 
   def draw(shape)
-  {
-   println "Drawing $shape with Point"
+  { 
+   echo "Drawing $shape with Point"
   }
-
 }
+return this
