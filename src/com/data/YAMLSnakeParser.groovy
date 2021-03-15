@@ -13,7 +13,8 @@ class YAMLSnakeParser{
  def data = parser.load((filename as File).text)
 
   println "parse done"
-  data.each{println it}
+
+  //data.each{println it}
   println data.records.car.name
  
  println data.records.car.record.model.dealer.name
