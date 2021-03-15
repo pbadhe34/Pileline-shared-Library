@@ -17,6 +17,6 @@ class YAMLSnakeParser{
   println data.records.car.name
  
  println data.records.car.record.model.dealer.name
-   
+   data
   }
  }
