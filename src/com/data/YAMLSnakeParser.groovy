@@ -7,8 +7,9 @@ import org.yaml.snakeyaml.Yaml
 class YAMLSnakeParser{
 
  String parseYmlData(filename){ 
+  println "starting with $filename"
  Yaml parser = new Yaml()
- println filename
+ 
  data = parser.load((filename as File).text)
 
   println "parse done"
