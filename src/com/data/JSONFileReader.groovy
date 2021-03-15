@@ -1,7 +1,7 @@
  
 package com.data
 
-import groovy.json.JsonSlurper
+import groovy.json.JsonSlurperClassic
 import java.io.File
 import java.io.Reader
 import java.io.FileReader
@@ -11,7 +11,7 @@ import java.io.BufferedReader
 
   String readJSONTreeData(filename){
 
- def slurper = new JsonSlurper() 
+ def slurper = new JsonSlurperClassic() 
   
 
  BufferedReader inReader = new BufferedReader(new FileReader(filename));
