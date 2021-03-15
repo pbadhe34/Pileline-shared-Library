@@ -1,6 +1,6 @@
 package org.data
 
-def checkOutFrom(repo) {
+def checkOutFrom(String repo) {
   //git url: "git@github.com:jenkinsci/${repo}"
   println "CheckOut from $repo"
 }
